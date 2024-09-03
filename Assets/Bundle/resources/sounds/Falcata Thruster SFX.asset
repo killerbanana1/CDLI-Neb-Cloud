@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1939831694, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: Falcata Thruster SFX
+  m_EditorClassIdentifier: 
+  _loop: 1
+  _priority: 128
+  _volume: 0.1
+  _maxFalloffDistance: 20
+  _doppler: 0
+  _rolloffMode: 2
+  _vacuumEffect: 1
+  _clip: {fileID: 8300000, guid: d4aef2c3441f6fc4ba626be366886044, type: 3}

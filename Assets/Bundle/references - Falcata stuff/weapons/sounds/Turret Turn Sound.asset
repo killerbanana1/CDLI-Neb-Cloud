@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1939831694, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: Turret Turn Sound
+  m_EditorClassIdentifier: 
+  _loop: 0
+  _priority: 13
+  _volume: 1500
+  _maxFalloffDistance: 150
+  _doppler: 0
+  _rolloffMode: 0
+  _vacuumEffect: 1
+  _clip: {fileID: 8300000, guid: 6f7c752b9e135be4eaf7733279189d98, type: 3}

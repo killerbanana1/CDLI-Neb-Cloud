@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -503169215, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: Falcata Main Engines
+  m_EditorClassIdentifier: 
+  _startClip: {fileID: 8300000, guid: e8e0e846f1bdc39458ee39d517efcc8d, type: 3}
+  _sustainedClip: {fileID: 8300000, guid: 7a8c6ad68694abe41bdff6a3009196e2, type: 3}
+  _endClip: {fileID: 8300000, guid: 3c3804231ec257d4da296e839291c5e2, type: 3}
+  _priority: 32
+  _volume: 0.17
+  _maxFalloffDistance: 50
+  _spatialBlend: 1
+  _doppler: 0.2
+  _startCrossfadeTime: 1
+  _endCrossfadeTime: 0
+  _rolloffMode: 2

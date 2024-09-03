@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1667753664, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: LaserOld
+  m_EditorClassIdentifier: 
+  _componentSaveKey: 
+  _modId: 0
+  _factionKey: Falcata Republic/Falcata Republic
+  _settingsPanelName: Seeker - Beam
+  _pointCost: 8
+  _image: {fileID: 21300000, guid: 28155089db2a53942ad9a399ef62e864, type: 3}
+  _description: Laser guided missile seeker
+  _validatorCost: 1
+  _tooCloseDistance: 75
+  _validatorMemoryLength: -1
+  _mode: 0
+  _rejectUnvalidated: 0
+  _maxRange: 300
+  _fov: 25
+  _steerable: 0
+  _maxSteerAngle: 10
+  _performConicalScan: 0
+  _conicalScanInitialCenterTime: 1
+  _conicalScanSpeed: 360
+  _lockCurrentTargetDistance: 50
+  _lockTargetTTGI: 5
+  _reacquisitionTime: 0.5
+  _currentTargetAffinity: 8
+  _validatorReliability: 0.95
+  _detectPDTargets: 0
+  _sigType: 0
+  _targetDirectionOnly: 1
+  _gain: 50
+  _intelDistinguishTargets: 0
+  _intelTargetWeightMult: 10

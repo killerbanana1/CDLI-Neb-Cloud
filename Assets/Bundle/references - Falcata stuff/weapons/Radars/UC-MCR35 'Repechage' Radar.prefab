@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3479953930824339943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8898850836154633434}
+  - component: {fileID: 2032015930840931505}
+  m_Layer: 18
+  m_Name: Jammable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8898850836154633434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3479953930824339943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8585874302397261897}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2032015930840931505
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3479953930824339943}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8585874302397261899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8585874302397261897}
+  - component: {fileID: 8585874302397261896}
+  m_Layer: 0
+  m_Name: UC-MCR35 'Repechage' Radar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8585874302397261897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585874302397261899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8898850836154633434}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8585874302397261896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585874302397261899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -199203187, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partKey: bAJIHILPEUiBAhs0556123
+  _maxHealth: 200
+  _functioningThreshold: 30
+  _damageThreshold: 30
+  _reinforced: 0
+  _bindTag: 
+  _dcPriority: 100
+  _casualtyClass: 0
+  _dcVoiceDisabledOnly: 0
+  _disabledParticles: {fileID: 0}
+  _saveKey: 
+  _modId: 0
+  _shortUIName: MCR35 Repechage
+  _smallImage: {fileID: 0}
+  _largeImage: {fileID: 0}
+  _factionKey: Falcata Republic/Falcata Republic
+  _shortDescription: Search Radar
+  _longDescription: Frontline equivalent with the ability to lock targets instead
+    of performing a burnthrough sweep.
+  _flavorText: 
+  _category: Sensors
+  _costBreakdownClass: 4
+  _compoundingCost: 0
+  _compoundingCostClass: 
+  _firstInstanceFree: 0
+  _compoundingMultiplier: 1
+  _pointCost: 15
+  _type: 2
+  _size: {x: 2, y: 2, z: 2}
+  _interiorOverhang: 0
+  _removeSocketCap: 0
+  _mass: 5
+  _bindToTag: RadarPanel
+  _rotateToFit: 2
+  _canTile: 0
+  Modifiers: []
+  _resourceDemandPriority: 1000
+  ResourcesProvided: []
+  ResourcesRequired:
+  - _resourceName: Power
+    _amount: 2000
+    _perUnit: 0
+    _onlyWhenOperating: 1
+  _uniqueDebuffs: []
+  _rareDebuffChance: 0.05
+  _rareDebuffSubtype: 
+  _debuffProbability:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 1.0222374
+      outSlope: 1.0222374
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08536583
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _sigType: 1
+  _castType: 0
+  _elintCategory: 1
+  _stackingSensorID: MCR35
+  _maxRange: 800
+  _radiatedPower: 3500
+  _gain: 40
+  _sensitivity: -36
+  _apertureSize: 25
+  _noiseFiltering: 0
+  _deviationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.1000049
+      inSlope: 0.062021613
+      outSlope: 0.062021613
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.09390602
+    - serializedVersion: 3
+      time: 0.79969597
+      value: 0.23257041
+      inSlope: 0.3982871
+      outSlope: 0.3982871
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.18171792
+      outWeight: 0.46947268
+    - serializedVersion: 3
+      time: 0.9236065
+      value: 0.40782407
+      inSlope: 4.3699136
+      outSlope: 11.19262
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.19215257
+      outWeight: 0.3009554
+    - serializedVersion: 3
+      time: 0.95
+      value: 1.000001
+      inSlope: 1.1233674
+      outSlope: 1.1233674
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.16740708
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _maxError: 3
+  _maxVelocityError: 0.01
+  _cueingOnly: 0
+  _canLock: 1
+  _lockErrorMultiplier: 0.1
+  _maintainLockSNR: 3
+  _canBurnthrough: 0
+  _burnthroughPowerMultiplier: 8
+  _burnthroughDamageProbability: 0.2
+  _burnthroughDamage: 25
+  _showJammingLOB: 1
+  _jammingLOBAccuracy: 0.5
+  _collectsIntel: 1

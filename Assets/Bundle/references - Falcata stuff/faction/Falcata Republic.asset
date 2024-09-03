@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1239139125, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
+  m_Name: Falcata Republic
+  m_EditorClassIdentifier: 
+  FactionName: Falcata Republic
+  SmallLogo: {fileID: 21300000, guid: db91db54a3f03cd438b7a1519601617d, type: 3}
+  LargeLogo: {fileID: 21300000, guid: 63535c5a3f3b1c749b857625ccec18f1, type: 3}
+  Description: "The Falcata Republic is a major cluster polity centered on the planet
+    Strata in the Falcata system. From this seat of power, the Falcatan congress
+    administers 15 major populated planets and many more minor outposts across 10
+    different star systems. While its control is looser in its further reaches, the
+    overall strength of Falcata is not doubted amongst the nations of the cluster.
+    A Falcatan state has existed in one form or another for roughly 650 years, with
+    the sole exception being its occupation by Imperial Venuma from -6 I.Y. - 77
+    I.Y. The area of space controlled by Falcata was settled primarily by two groups,
+    the Anglois and Francois of old earth, and these two cultures have remained dominant
+    in the region ever since. As such the republic is primarily a blingual state,
+    with each group having roughly equal demographic representation, followed by
+    a large minority of immigrants from the more chaotic northeast.\r\n\r\nThe Falcatan
+    system is somewhat unique for an interstellar polity, a hybrid of a demarchy
+    and a republic, in which a certain amount of eligible and willing citizens are
+    directed to congress by lottery. From here this group performs elections and
+    picks new leaders for the various ministries of Falcata's government. This process
+    occurs once every decade and depending on the draw of citizens put into government,
+    Falcatan policy can shift wildly. Within the republic, there are many critics
+    of the unstable nature of this system, nonetheless, it persists.\r\n\r\nDespite
+    its constantly shifting internal policy, Falcatan relations with its neighbors
+    have remained generally consistent since Venuma. The turbulent Houses to the
+    south, the Skirvaldr to the west, and the Indivisum to the north have remained
+    terse rivals, while the Sultunate, the Vesperians, and Shelter have been longstanding
+    allies. However, in recent times this order has been shifting, a combination
+    of discontent with Shelter dominion over the clusters trade, and the sortition
+    of more abrasive representatives to congress has lead to increasingly tense relations
+    with Shelter. Indeed, just 20 years ago in 458 IY Falcata normalized relations
+    with the previously hostile Houses, and in 473IY a defensive alliance was formed.
+    In this time frame, multiple trade incidents have occurred, the most major of
+    which resulted in the destruction of an Alliance light cruiser and three Falcatan
+    cargo liners. It is this incident in particular that resulted in the severance
+    of relations between Boardman and Strata. With a newly secured government, the
+    Falcatans are itching for a chance to flip the proverbial table against Shelter,
+    and bring their current hegemon to an end. With the newly sparked bethel rebellion,
+    it seems their chance has arrived, and across Falcatan space fleets mobilize
+    for war. \n\nThe Falcatan Navy is neer-peer or peer compared the the AN, however
+    due to a more limited industrial capacity, Falcatan capital ships tend to be
+    less numerous but higher quality than their AN counterparts, however, their lighter
+    ships are usually more plentiful, intended to operate in groups to achieve local
+    superiority against the individually superior AN sceening ships. "
+  NewFleetFirstShip: Falcata Republic/FF_Moxella
+  _sharedFactionAll: []
+  _sharedEquipmentList:
+  - Stock/L50 Laser Dazzler
+  - Stock/J360 Jammer
+  - Stock/Basic CIC
+  - Stock/Reinforced CIC
+  - Stock/Citadel CIC
+  - Stock/Auxiliary Steering
+  - Stock/Berthing
+  - Stock/Small DC Locker
+  - Stock/Reinforced DC Locker
+  - Stock/Large DC Locker
+  - Stock/Rapid DC Locker
+  - Stock/Damage Control Central
+  - Stock/Small Workshop
+  - Stock/Bulk Magazine
+  - Stock/Reinforced Magazine
+  - Stock/Battle Dressing Station
+  - Stock/Analysis Annex
+  - Stock/Intelligence Center
+  - Stock/Plant Control Center
+  - Stock/Small Reactor Booster
+  - Stock/Adaptive Radar Receiver
+  - Stock/Track Correlator
+  - Stock/Strobe Correlator
+  - Stock/Mount Gyros
+  - Stock/Supplementary Radio Amplifiers
+  - Stock/Launcher Deluge System
+  - Stock/Magazine Sprinklers
+  - Stock/Redundant Reactor Failsafes
+  - Stock/Reinforced Thruster Nozzles
+  - Stock/Focused Particle Accelerator
+  - Stock/Ammunition Elevators
+  - Stock/Rapid-Cycle Cradle
+  - Stock/Actively Cooled Amplifiers
+  - Stock/Missile Programming Bus
+  - Stock/Missile Programming Bus Array
+  - Stock/Missile Parallel Interface
+  - Stock/CR10 Antenna
+  - Stock/VLS-1-23 Launcher
+  - Stock/VLS-1-46 Launcher
+  - Stock/Strike Planning Center
+  - Stock/FR3300 Micro Reactor
+  - Stock/FR4800 Reactor
+  - Stock/RS35 'Frontline' Radar
+  - Stock/RM50 'Parallax' Radar
+  - Stock/VLS-2 Launcher
+  - Stock/VLS-3 Launcher
+  - Stock/CLS-3 Launcher
+  - Stock/Torpedo Turret
+  - Stock/Mk20 'Defender' PDT
+  - Stock/Mk25 'Rebound' PDT
+  - Stock/Mk29 'Stonewall' PDT
+  - Stock/Mk90 'Aurora' PDT
+  - Stock/Mk95 'Sarissa' PDT
+  - Stock/ES22 'Pinard' Electronic Support Module
+  - Stock/ES32 'Scryer' Missile ID System
+  - Stock/E55 'Spotlight' Illuminator
+  - Stock/E57 'Floodlight' Illuminator
+  - Stock/E71 'Hangup' Jammer
+  - Stock/E70 'Interruption' Jammer
+  - Stock/E90 'Blanket' Jammer
+  - Stock/RF101 'Bullseye' Radar
+  - Stock/Signature Scrambler
+  - Stock/CR70 Antenna
+  - Stock/20mm Slug
+  - Stock/Flak Round
+  - Stock/15mm Sandshot
+  - Stock/EA12 Chaff Decoy
+  - Stock/EA20 Flare Decoy
+  - Stock/EA99 Active Decoy
+  - Stock/SGM-H-2 Body
+  - Stock/SGM-100 Body
+  - Stock/SGM-200 Body
+  - Stock/SGT-300 Body
+  - $MODMIS$/SGM-H-200 Cyclone
+  - $MODMIS$/SGM-100 Balestra
+  - $MODMIS$/SGM-200 Tempest
+  - $MODMIS$/SGT-300 Pilum
+  - Stock/HE Kinetic Penetrator
+  _sharedEquipmentPatterns: []
+  _saveKey: 
+  _modId: 0
