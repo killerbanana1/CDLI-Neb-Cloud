@@ -1,71 +1,11 @@
 <?xml version="1.0"?>
 <BundleManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xds="http://www.w3.org/2001/XMLSchema">
   <BasePath>Assets/Bundle</BasePath>
-  <Namespace>Falcata Republic</Namespace>
-  <Hulls>
-	<Entry Name="CV_Pskellon" Address="CV_Pskellon.prefab"/>
-	<Entry Name="FF_Moxella" Address="FF_Moxella.prefab"/>
-	<Entry Name="CL_Kaliare" Address="CL_Kaliare.prefab"/>
-	<Entry Name="CL_Irsavatha" Address="CL_Irsavatha.prefab"/>
-	<Entry Name="CH_Moccotar" Address="CH_Moccotar.prefab"/>
-  </Hulls>
-  <MissileComponents>
-	<Entry Name="Fixed Laser-Guided Seeker" Address="weapons/Missiles/Fixed Laser-Guided Seeker.asset"/>
-  </MissileComponents>
+  <Namespace>CDLI</Namespace>
   <Components>
-	<Entry Name="RHI-4380 Cannon" Address="weapons/RHI-4380 Cannon.prefab"/>
-	<Entry Name="RHI-3380 Cannon" Address="weapons/RHI-3380 Cannon.prefab"/>
-	<Entry Name="RHI-2380 Cannon" Address="weapons/RHI-2380 Cannon.prefab"/>
-	<Entry Name="RHI-4150 Cannon" Address="weapons/RHI-4150 Cannon.prefab"/>
-	<Entry Name="RHI-2150 Cannon" Address="weapons/RHI-2150 Cannon.prefab"/>
-	<Entry Name="RHI-S1150 Cannon" Address="weapons/RHI-S1150 Cannon.prefab"/>
-	<Entry Name="RHI-S4150 Cannon" Address="weapons/RHI-S4150 Cannon.prefab"/>
-	<Entry Name="WY-135 Railgun" Address="weapons/WY-135 Railgun.prefab"/>
-	<Entry Name="WY-235 Railgun" Address="weapons/WY-235 Railgun.prefab"/>
-	<Entry Name="WY-1220 ETC Gun" Address="weapons/WY-1220 ETC Gun.prefab"/>
-	<Entry Name="RHI-S1700 Kinetic Artillery" Address="weapons/RHI-S1700 Kinetic Artillery.prefab"/>
-	<Entry Name="RHI-1620 Recoilless Rifle" Address="weapons/RHI-1620 Recoilless Rifle.prefab"/>
-	<Entry Name="RHI-S820 Recoilless Rifle" Address="weapons/RHI-S820 Recoilless Rifle.prefab"/>
-	<Entry Name="MLS-3-S Launcher" Address="weapons/MLS-3-S Launcher.prefab"/>
-	<Entry Name="ADM-50 'Mockingjay' Deception Module" Address="weapons/ADM-50 'Mockingjay' Deception Module.prefab"/>
-	<Entry Name="UC-LRR57 'Sauron' Radar" Address="weapons/UC-LRR57 'Sauron' Radar.prefab"/>
-	<Entry Name="UC-MCR35 'Repechage' Radar" Address="weapons/Radars/UC-MCR35 'Repechage' Radar.prefab"/>
-	<Entry Name="UC-CGR62 'Eagle' Radar" Address="weapons/Radars/UC-CGR62 'Eagle' Radar.prefab"/>
-	<Entry Name="WY-LD17 'Traveller' Laser Designator" Address="weapons/WY-LD17 'Traveller' Laser Designator.prefab"/>
-	<Entry Name="Reinforced Gun Plotting Center" Address="components/Reinforced Gun Plotting Center.prefab"/>
-	<Entry Name="Damage Control Facility" Address="components/Damage Control Facility.prefab"/>
-	<Entry Name="Capacitor Bank" Address="components/Capacitor Bank.prefab"/>
-	<Entry Name="Recoilless Elevator" Address="components/Recoilless Elevator.prefab"/>
-	<Entry Name="Gun Plotting Center" Address="components/Gun Plotting Center.prefab"/>
-	<Entry Name="FM200 Drive" Address="components/FM200 Drive.prefab"/>
-	<Entry Name="FM200R Drive" Address="components/FM200R Drive.prefab"/>
-	<Entry Name="FM250 'Hussar' Drive" Address="components/FM250 'Hussar' Drive.prefab"/>
-	<Entry Name="FM270 'Hummingbird' Drive" Address="components/FM270 'Hummingbird' Drive.prefab"/>
-	<Entry Name="FM290 'Voltigeur' Drive" Address="components/FM290 'Voltigeur' Drive.prefab"/>
-	<Entry Name="FM400 Drive" Address="components/FM400 Drive.prefab"/>
-	<Entry Name="FM400R Drive" Address="components/FM400R Drive.prefab"/>
-	<Entry Name="FM460 'Cavalier' Drive" Address="components/FM460 'Cavalier' Drive.prefab"/>
-	<Entry Name="FM470 'Hummingbird' Drive" Address="components/FM470 'Hummingbird' Drive.prefab"/>
-	<Entry Name="FM600 Drive" Address="components/FM600 Drive.prefab"/>
-	<Entry Name="FM660 'Cavalier' Drive" Address="components/FM660 'Cavalier' Drive.prefab"/>
-	<Entry Name="FM690 'Voltigeur' Drive" Address="components/FM690 'Voltigeur' Drive.prefab"/>
-	<Entry Name="WY30X 'Newt' Drive" Address="components/WY30X 'Newt' Drive.prefab"/>
-	<Entry Name="WY50X 'Ripley' Drive" Address="components/WY50X 'Ripley' Drive.prefab"/>
+	<Entry Name="PR600 'Trebuchet' Railgun" Address="weapons/PR600 'Trebuchet' Railgun.prefab"/>
   </Components>
   <Munitions>
-    <Entry Name="380mm AP Shell" Address="weapons/380mm AP Shell.asset"/>
-	<Entry Name="380mm HE Shell" Address="weapons/380mm HE Shell.asset"/>
-	<Entry Name="380mm HE-ABF Shell" Address="weapons/380mm HE-ABF Shell.asset"/>
-	<Entry Name="200mm RP-HEI Shell" Address="weapons/200mm RP-HEI Shell.asset"/>
-	<Entry Name="220mm AP Shell" Address="weapons/220mm AP Shell.asset"/>
-	<Entry Name="700mm KART-HEI Shell" Address="weapons/700mm KART-HEI Shell.asset"/>
-	<Entry Name="700mm KART-KP Shell" Address="weapons/700mm KART-KP Shell.asset"/>
-	<Entry Name="150mm AP-S Shell" Address="weapons/150mm AP-S Shell.asset"/>
-	<Entry Name="150mm HE Shell" Address="weapons/150mm HE Shell.asset"/>
-	<Entry Name="150mm Flak Shell" Address="weapons/150mm Flak Shell.asset"/>
-	<Entry Name="35mm AP Rail Pinshot" Address="weapons/35mm AP Rail Pinshot.asset"/>
+	<Entry Name="600mm APDS Shell" Address="weapons/600mm APDS Shell.asset"/>
   </Munitions>
-  <Factions>
-	<Entry Name="Falcata Republic" Address="faction/Falcata Republic.asset"/>
-  </Factions>
 </BundleManifest>

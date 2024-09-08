@@ -22,9 +22,9 @@ public class CopyShellData : IModEntryPoint
         updateAllTurrets();
         updateAllMunitions();
 
-        Harmony harmony = new Harmony("nebulous.Falcata");
+        Harmony harmony = new Harmony("nebulous.CDLI");
         harmony.PatchAll();
-        UnityEngine.Debug.Log("[Falcata] PostLoad Harmony call complete");
+        UnityEngine.Debug.Log("[CDLI] PostLoad Harmony call complete");
     }
 
     public static void updateAllTurrets()
@@ -34,19 +34,7 @@ public class CopyShellData : IModEntryPoint
         {
             Debug.Log(componentName);
         }
-        updateTurret(componentDictionary, "Stock/Mk68 Cannon", "Falcata Republic/RHI-4380 Cannon");
-        updateTurret(componentDictionary, "Stock/Mk68 Cannon", "Falcata Republic/RHI-3380 Cannon");
-        updateTurret(componentDictionary, "Stock/Mk68 Cannon", "Falcata Republic/RHI-2380 Cannon");
-        updateTurret(componentDictionary, "Stock/Mk65 Cannon", "Falcata Republic/RHI-4150 Cannon");
-        updateTurret(componentDictionary, "Stock/Mk65 Cannon", "Falcata Republic/RHI-2150 Cannon");
-        updateTurret(componentDictionary, "Stock/Mk65 Cannon", "Falcata Republic/RHI-1620 Recoilless Rifle");
-        updateTurret(componentDictionary, "Stock/C65 Cannon", "Falcata Republic/RHI-S820 Recoilless Rifle");
-        updateTurret(componentDictionary, "Stock/C65 Cannon", "Falcata Republic/RHI-S1700 Kinetic Artillery");
-        updateTurret(componentDictionary, "Stock/C53 Cannon", "Falcata Republic/RHI-S1150 Cannon");
-        updateTurret(componentDictionary, "Stock/C53 Cannon", "Falcata Republic/RHI-S4150 Cannon");
-        updateTurret(componentDictionary, "Stock/Mk81 Railgun", "Falcata Republic/WY-135 Railgun");
-        updateTurret(componentDictionary, "Stock/Mk81 Railgun", "Falcata Republic/WY-235 Railgun");
-        updateTurret(componentDictionary, "Stock/Mk64 Cannon", "Falcata Republic/WY-1220 ETC Gun");
+        updateTurret(componentDictionary, "Stock/Mk81 Railgun", "CDLI/PR600 'Trebuchet' Railgun");
     }
 
     public static void updateTurret(Dictionary<string, HullComponent> componentDictionary, string keySource, string keyDestination)
@@ -96,17 +84,7 @@ public class CopyShellData : IModEntryPoint
         {
             Debug.Log(munitionName);
         }
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/450mm AP Shell", "Falcata Republic/380mm AP Shell");
-        updateMunition<LightweightExplosiveShell>(munitionDictionary, "Stock/450mm HE Shell", "Falcata Republic/380mm HE Shell");
-        updateMunition<LightweightAirburstFragShell>(munitionDictionary, "Stock/600mm Bomb Shell", "Falcata Republic/380mm HE-ABF Shell");
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/450mm AP Shell", "Falcata Republic/200mm RP-HEI Shell");
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/450mm AP Shell", "Falcata Republic/220mm AP Shell");
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/450mm AP Shell", "Falcata Republic/700mm KART-HEI Shell");
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/450mm AP Shell", "Falcata Republic/700mm KART-KP Shell");
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "Falcata Republic/35mm AP Rail Pinshot");
-        updateMunition<LightweightExplosiveShell>(munitionDictionary, "Stock/250mm HE Shell", "Falcata Republic/150mm HE Shell");
-        updateMunition<LightweightProximityShell>(munitionDictionary, "Stock/250mm HE-RPF Shell", "Falcata Republic/150mm Flak Shell");
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/250mm AP Shell", "Falcata Republic/150mm AP-S Shell");
+        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/600mm APDS Shell");
     }
 
     public static void updateMunition<T>(Dictionary<string, IMunition> munitionDictionary, string keySource, string keyDestination)
