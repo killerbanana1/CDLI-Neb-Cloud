@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _originalMaterials:
-  - {fileID: 2100000, guid: ba0c427f075d3d64b915d14641f83a69, type: 2}
+  - {fileID: 2100000, guid: fc11ccc0c323f4347973cf991c543292, type: 2}
   _applyOnAwake: 1
   _fullDepth: 0
   _createMaterialInstances: 1
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _originalMaterials:
-  - {fileID: 2100000, guid: ba0c427f075d3d64b915d14641f83a69, type: 2}
+  - {fileID: 2100000, guid: fc11ccc0c323f4347973cf991c543292, type: 2}
   _applyOnAwake: 1
   _fullDepth: 0
   _createMaterialInstances: 1
@@ -616,7 +616,7 @@ MonoBehaviour:
   _compoundingMultiplier: 1
   _pointCost: 40
   _type: 0
-  _size: {x: 6, y: 4, z: 6}
+  _size: {x: 8, y: 7, z: 8}
   _interiorOverhang: 0
   _removeSocketCap: 0
   _mass: 20

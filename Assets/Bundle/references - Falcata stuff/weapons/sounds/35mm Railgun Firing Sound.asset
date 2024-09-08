@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _loop: 0
   _priority: 128
-  _volume: 6000
+  _volume: 15000
   _maxFalloffDistance: 150
   _doppler: 0
   _rolloffMode: 0
