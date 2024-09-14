@@ -7,5 +7,6 @@
   </Components>
   <Munitions>
 	<Entry Name="600mm APDS Shell" Address="weapons/600mm APDS Shell.asset"/>
+	<Entry Name="600mm Shredder Shell" Address="weapons/600mm Shredder Shell.asset"/>
   </Munitions>
 </BundleManifest>
