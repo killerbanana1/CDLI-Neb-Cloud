@@ -86,6 +86,8 @@ public class CopyShellData : IModEntryPoint
         }
         updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/600mm APDS Shell");
         updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/600mm Shredder Shell");
+        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/400mm APDS Shell");
+        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/400mm Shredder Shell");
     }
 
     public static void updateMunition<T>(Dictionary<string, IMunition> munitionDictionary, string keySource, string keyDestination)

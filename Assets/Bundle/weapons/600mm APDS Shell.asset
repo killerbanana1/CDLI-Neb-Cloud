@@ -30,7 +30,7 @@ MonoBehaviour:
   _armorDamageRadius: 2
   _heatPower: 1500
   _componentDamage: 200
-  _randomEffectMultiplier: 10
+  _randomEffectMultiplier: 100
   _neverCrit: 0
   _crewVulnerabilityMultiplier: 1
   _maxPenetrationDistance: -1
@@ -38,7 +38,7 @@ MonoBehaviour:
   _overrideComponentSearchDistance: 12
   _overpenDamageMultiplier: 0.8
   _overpenDamageSpreadMethod: 0
-  _ignoreDamageReduction: 0
+  _ignoreDamageReduction: 1
   _alwaysSpreadDamage: 0
   _forceBodyWakeup: 0
   _applyImpulseOnImpact: 0

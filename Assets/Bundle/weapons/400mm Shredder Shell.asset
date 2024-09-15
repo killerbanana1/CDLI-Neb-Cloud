@@ -10,32 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -682611449, guid: ed7bf313b5d0b5446af45ecfa2e409ac, type: 3}
-  m_Name: 600mm Shredder Shell
+  m_Name: 400mm Shredder Shell
   m_EditorClassIdentifier: 
   _pointCost: 1
-  _pointDivision: 25
-  _storageVolume: 0.8
+  _pointDivision: 50
+  _storageVolume: 0.6
   _factionKey: 
   _flavorText: 
   _screenshot: {fileID: 0}
   _tags:
-    Class: Ballistic/Magnetic
-    Subclass: 600mm
+    Class: 400mm
+    Subclass: Ballistic/Magnetic
   _role: 1
   _weightClassDiscrepancy: 1
-  _maxFlightTime: 12
+  _maxFlightTime: 10
   _flightSpeed: 200
   _repoolDelay: 1
-  _armorPenetration: 120
-  _armorDamageRadius: 2
-  _heatPower: 1500
-  _componentDamage: 200
-  _randomEffectMultiplier: 50
+  _armorPenetration: 80
+  _armorDamageRadius: 1.5
+  _heatPower: 1000
+  _componentDamage: 150
+  _randomEffectMultiplier: 25
   _neverCrit: 0
   _crewVulnerabilityMultiplier: 10
-  _maxPenetrationDistance: 120
+  _maxPenetrationDistance: -1
   _neverOverpen: 1
-  _overrideComponentSearchDistance: -1
+  _overrideComponentSearchDistance: 80
   _overpenDamageMultiplier: 0.2
   _overpenDamageSpreadMethod: 0
   _ignoreDamageReduction: 1
@@ -47,7 +47,7 @@ MonoBehaviour:
     _surfaceGroups: []
   _modId: 0
   _munitionName: 
-  _munitionKey: f72bf914-21d3-4aa9-a452-989d49a9e3e5
+  _munitionKey: 50feb9b1-7d7c-45cc-ac90-06f6bafd0421
   _tracerEffect:
     _effectAsset: {fileID: 0}
     _colors: []
@@ -84,18 +84,18 @@ MonoBehaviour:
         m_NumAlphaKeys: 4
     _floats:
     - Name: Width
-      Value: 0.55
+      Value: 0.35
     - Name: Lifetime
       Value: 3
   _whine: {fileID: 8300000, guid: 3a3519090b043e04d8b1a7bedbd19371, type: 3}
   _castType: 2
   _spherecastRadius: 1
   _rayAngle: 60
-  _rayCount: 30
+  _rayCount: 20
   _alwaysDoStructureDamage: 0
   _dedicatedStructureDamage: 0
   _alwaysSpreadThroughStructure: 1
   _playDestructionEffectOnTimeout: 1
   _penetrationEnvelope: 0.2
-  _explosionRadius: 20
+  _explosionRadius: 15
   _explodeOnFirstUnDestroyed: 1
