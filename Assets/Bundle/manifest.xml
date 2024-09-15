@@ -8,7 +8,9 @@
   <Munitions>
 	<Entry Name="600mm APDS Shell" Address="weapons/600mm APDS Shell.asset"/>
 	<Entry Name="600mm Shredder Shell" Address="weapons/600mm Shredder Shell.asset"/>
-	<Entry Name;="400mm APDS Shell" Address="weapons/400mm APDS Shell.asset"/>
-	<Entry Nmae "400mm Shredder Shell" Address="weapons/400mm Shredder.asset"/>
+	<Entry Name="400mm APDS Shell" Address="weapons/400mm APDS Shell.asset"/>
+	<Entry Name="400mm Shredder Shell" Address="weapons/400mm Shredder.asset"/>
+	<Entry Name="200mm APDS Shell" Address="weapons/200mm APDS Shell.asset"/>
+	<Entry Name="200mm Shredder Shell"Address="weapons/200mm Shredder Shell"/>
   </Munitions>
 </BundleManifest>
