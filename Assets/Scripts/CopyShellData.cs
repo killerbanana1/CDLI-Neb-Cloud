@@ -35,6 +35,8 @@ public class CopyShellData : IModEntryPoint
             Debug.Log(componentName);
         }
         updateTurret(componentDictionary, "Stock/Mk81 Railgun", "CDLI/PR600 'Trebuchet' Railgun");
+        updateTurret(componentDictionary, "Stock/Mk81 Railgun", "CDLI/PR400 'Trebuchet' Railgun");
+        updateTurret(componentDictionary, "Stock/Mk81 Railgun", "CDLI/PR200 'Trebuchet' Railgun");
     }
 
     public static void updateTurret(Dictionary<string, HullComponent> componentDictionary, string keySource, string keyDestination)
@@ -85,11 +87,11 @@ public class CopyShellData : IModEntryPoint
             Debug.Log(munitionName);
         }
         updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/600mm APDS Shell");
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/600mm Shredder Shell");
+        updateMunition<LightweightExplosiveShell>(munitionDictionary, "Stock/450mm HE Shell", "CDLI/600mm Shredder Shell");
         updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/400mm APDS Shell");
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/400mm Shredder Shell");
+        updateMunition<LightweightExplosiveShell>(munitionDictionary, "Stock/450mm HE Shell", "CDLI/400mm Shredder Shell");
         updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/200mm APDS Shell");
-        updateMunition<LightweightKineticShell>(munitionDictionary, "Stock/300mm AP Rail Sabot", "CDLI/200mm Shredder Shell");
+        updateMunition<LightweightExplosiveShell>(munitionDictionary, "Stock/450mm HE Shell", "CDLI/200mm Shredder Shell");
     }
 
     public static void updateMunition<T>(Dictionary<string, IMunition> munitionDictionary, string keySource, string keyDestination)

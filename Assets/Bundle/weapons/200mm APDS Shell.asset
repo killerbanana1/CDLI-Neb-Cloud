@@ -19,8 +19,8 @@ MonoBehaviour:
   _flavorText: 
   _screenshot: {fileID: 0}
   _tags:
-    Class: 200mm
-    Subclass: Ballistic/Magnetic
+    Class: Ballistic/Magnetic
+    Subclass: 200mm
   _role: 1
   _weightClassDiscrepancy: 1
   _maxFlightTime: 8
@@ -83,10 +83,10 @@ MonoBehaviour:
         m_NumColorKeys: 3
         m_NumAlphaKeys: 4
     _floats:
-    - Name: Lifetime
-      Value: 3
     - Name: Width
       Value: 0.2
+    - Name: Lifetime
+      Value: 2
   _whine: {fileID: 8300000, guid: 3a3519090b043e04d8b1a7bedbd19371, type: 3}
   _castType: 0
   _spherecastRadius: 1
