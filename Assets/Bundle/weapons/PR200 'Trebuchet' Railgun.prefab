@@ -458,15 +458,15 @@ MonoBehaviour:
   _timeBetweenMuzzles: 0.75
   _resetMuzzleIndexOnReload: 1
   _randomlyDeviateMuzzleTime: 1
-  _magazineSize: 1
+  _magazineSize: 6
   _reloadTime: 20
   _reloadStatSubtype: energy
   _recycleStatSubtype: energy
   _randomlyDeviateReloadTime: 1
   _temporaryFiringEffects: []
   _turretControl: {fileID: 2094552491251414893}
-  _traverseRate: 15
-  _elevationRate: 20
+  _traverseRate: 20
+  _elevationRate: 25
 --- !u!114 &7094085580136142822
 MonoBehaviour:
   m_ObjectHideFlags: 0
